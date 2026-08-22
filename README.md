@@ -7,3 +7,6 @@
 * This early version has only access to two pages, but it can be set up however you wish; 
 
 [note: this is a very early one day build and requires further improvements] 
+
+<img width="994" height="675" alt="pico-wiring-screenshot" src="https://github.com/user-attachments/assets/eed6a93e-d0b4-41dd-99bf-ebaa2ce09ab2" />
+
