@@ -8,8 +8,8 @@ from lcd_api import LcdApi
 from pico_i2c_lcd import I2cLcd
 
 # Define wifi connection 
-ssid = 'Micasca'
-password = 'MicascaMi2025'
+ssid = ''
+password = ''
 
 # Define led for debugging
 led = Pin("LED", Pin.OUT)
