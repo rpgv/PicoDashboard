@@ -19,7 +19,7 @@ async def page1():
     start_date = datetime.date.today().strftime('%Y-%m-%d')
     current_hour = ('0'+str(datetime.datetime.now().hour))[-2:]
     print(start_date)
-    url = f"https://archive-api.open-meteo.com/v1/archive?latitude=41.1496&longitude=8.61099&start_date={start_date}&end_date={start_date}&hourly=temperature_2m"
+    url = f"https://archive-api.open-meteo.com/v1/archive?latitude=36.7783&longitude=119.4179&start_date={start_date}&end_date={start_date}&hourly=temperature_2m"
     response = req.get(url).content
     weather_information = json.loads(response)
     time_index = [weather_information['hourly']['time'].index(i) for i in weather_information['hourly']['time'] if f'T{current_hour}' in i]
